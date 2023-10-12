@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+.bordateste {
+    border: 1px solid red;
+}
+
+.carousel-custom {
+    background: rgba(255, 255, 255, 0.65); 
+    padding: 10px;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.navbar-rolagem {
+    transition: top 0.3s;
+}
+
+.foto {
+    border-radius: 200px;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/    
     /*font-family: 'Poppins', sans-serif;*/
-}
-
-.bordateste {
-    border: 1px solid red;
+    margin-top: 130px;
 }
 
 h1 {
@@ -21,10 +36,6 @@ h1 {
 
 #sc1 h2{
     font-size:4vw;
-}
-
-#home {
-    margin-top: 20px;
 }
 
 footer {

@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rmatxs_dev // portifólio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="../assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
-<body style="margin-top: 150px;">
+<body>
     <header>
         <div id="navegacao">
-            <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light navbar-rolagem shadow-sm">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="../assets/img/logo2.png" height="40" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="index.html"><img src="../assets/img/logo2.png" height="40"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="nav-principal">
@@ -43,17 +48,263 @@
     </header>
 
     <section id="sc1" class="d-flex m-5">
+        <div class="container text-center mb-5">
+            <h1># Portifólio</h1>
+            <h3>Nessa sessão você pode conferir alguns dos meus projetos</h2>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- aplicações -->
+    <section id="sc2" class="d-flex m-5"><!-- app 1 -->
         <div class="container text-center">
-            <h1>Rafael Matxs</h1>
-            <h2>Fullstack Developer</h2>
-            <h3>PHP | Laravel | JS</h3>
-            <br>
-            <p>Conheça melhor o meu trabalho:</p>
-            <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center" href="https://www.linkedin.com/in/rafaelmatxs/" role="button">
-                <img src="../assets/img/sinal-do-linkedin.png" height="25" alt="ícone linkedin">  LinkedIn
-            </a>
-            <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center" href="https://github.com/rafaelmatxs" role="button">
-            <img src="../assets/img/placa-do-github.png" height="25" alt="ícone Github">  Github
+            <div class="row">
+                <div class="col-md-3"><!-- descrição projeto -->
+                    <div class="mt-5 p-2">
+                        <h1>RipTwitter</h1>
+                        <p>Aplicação desenvolvida em PHP, seguindo o padrão MVC.</p>
+                        <p>Ao utilizar o RipTwitter, primeiramente você deve clicar no botão "inscrever-se" para
+                            cadastrar
+                            sua conta e então você já pode fazer seu login.
+                            No RipTwitter o usuário pode logar, deslogar, tweetar, remover seus tweets, pesquisar por
+                            usuários, seguir outros usuários e ver seus posts na linha do tempo.
+                        </p>
+
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="http://riptwitter.free.nf" role="button">
+                            RipTwitter
+                        </a>
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="https://github.com/rafaelmatxs/cloneTwitter" role="button">
+                            Código
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="container"><!-- container -->
+
+                        <div id="carousel1" class="carousel carousel-dark slide shadow-lg">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../assets/img/tela1_riptwitter.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Tela de login</h5>
+                                        <p>A tela inicial da aplicação, onde é possível inscrever-se e logar.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../assets/img/tela2_riptwitter.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Tela de cadastro</h5>
+                                        <p>Nessa tela é possível se cadastrar. Cada usuário deve ter um e-mail único e
+                                            sua senha é criptografada.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/tela3_riptwitter.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Linha do tempo</h5>
+                                        <p>Nessa tela você pode visualizar os principais recursos da aplicação.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div><!-- carousel -->
+
+                    </div><!-- /container -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section id="sc3" class="d-flex m-5"><!-- app 2 -->
+        <div class="container text-center">
+            <div class="row">
+
+                <div class="col-md-9"><!-- carousel -->
+                    <div class="container"><!-- container -->
+
+                        <div id="carousel2" class="carousel carousel-dark slide shadow-lg">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../assets/img/tela1_mosquito.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Tela de login</h5>
+                                        <p>A tela inicial da aplicação, onde é possível inscrever-se e logar.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../assets/img/tela2_mosquito.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Tela de cadastro</h5>
+                                        <p>Nessa tela é possível se cadastrar. Cada usuário deve ter um e-mail único e
+                                            sua senha é criptografada.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/tela3_mosquito.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Linha do tempo</h5>
+                                        <p>Nessa tela você pode visualizar os principais recursos da aplicação.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div><!-- carousel -->
+
+                    </div><!-- /container -->
+                </div>
+
+                <div class="col-md-3"><!-- descrição projeto -->
+                    <div class="mt-5 p-2">
+                        <h1>Jogo Mata-Mosquito</h1>
+                        <p>Aplicação desenvolvida em JavaScript manipulando os elementos do BOM.</p>
+                        <p>A aplicação usa recursos do JavaScript para fazer surgirem mosquitos em locais aleatórios da
+                            tela.
+                            Para vencer você precisa ser mais rápido que os mosquitos e bater neles antes que eles
+                            desapareçam.
+                            O jogo possúi 3 dificuldades, uma mais desafiadora que a outra.
+                        </p>
+
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="https://rafaelmatxs.github.io/jogo-mosquito/" role="button">
+                            Jogo Mata-Mosquito
+                        </a>
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="https://github.com/rafaelmatxs/jogo-mosquito" role="button">
+                            Código
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section id="sc4" class="d-flex m-5 mb-5"><!-- app 3 -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3"><!-- descrição projeto -->
+                    <div class="mt-5 p-2">
+                        <h1>Orçamento pessoal</h1>
+                        <p>Aplicação desenvolvida em JS, utilizando o recurso do localstorage.</p>
+                        <p>O Orçamento pessoal é uma aplicação onde você pode fazer o registro das suas despesas, para
+                            controlar seu orçamento.
+                            Embora a aplicação não se comunique com um sistema gestor de banco de dados, ela usa o
+                            localstore do browser para persistir os dados da aplicação na sessão.
+                        </p>
+
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="https://rafaelmatxs.github.io/orcamento-pessoal/" role="button">
+                            Orçamento Pessoal
+                        </a>
+                        <a class="btn btn-md  btn-light btn-outline-dark p-2 m-1 text-center"
+                            href="https://github.com/rafaelmatxs/orcamento-pessoal" role="button">
+                            Código
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="container"><!-- container -->
+
+                        <div id="carousel3" class="carousel carousel-dark slide shadow-lg">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../assets/img/tela1_despesas.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Tela de registro de despesas</h5>
+                                        <p>Nessa tela é possível registrar suas despesas por tipo de conta.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../assets/img/tela2_despesas.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Confirmação de registro</h5>
+                                        <p>Ao cadastrar, se todos os campos estiverem preenchidos, você receberá um
+                                            aviso indicando que a despesa foi registrada com sucesso.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/tela3_despesas.PNG" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block carousel-custom">
+                                        <h5>Consulta de despesas</h5>
+                                        <p>Na tela de consulta você pode checar suas todas suas despesas, filtrar elas
+                                            por atributos e excluir registros.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div><!-- carousel -->
+
+                    </div><!-- /container -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /aplicações -->
+
+    <section id="sc5" class="d-flex m-5">
+        <div class="container text-center">
+            <a class="btn btn-md btn-light btn-outline-dark p-2 m-1 mx-auto col-3 text-center" href="https://github.com/rafaelmatxs"
+                role="button">
+                <img src="../assets/img/logo_github.png" height="25" alt="ícone Github" class="m-1">Clique para acessar meu Github
             </a>
         </div>
     </section>
@@ -85,7 +336,8 @@
 
                 <div class="col-md-4">
                     <p class="text-justify">
-                    "É mais fácil mudar a especificação para se adequar ao programa do que o programa para se adequar à especificação."
+                        "É mais fácil mudar a especificação para se adequar ao programa do que o programa para se
+                        adequar à especificação."
                     </p>
                     <p>
                         - Alan Perlis
@@ -100,13 +352,28 @@
                     <hr>
                 </div>
 
-
-
             </div><!-- /row -->
         </div><!-- /container-->
     </footer>
 
+    <script>
+        let posIniScroll = window.pageYOffset; //posição inicial do scroll
+
+        window.onscroll = function() {
+            let posAtuScroll = window.pageYOffset; //posição atual do scroll
+            if (posIniScroll > posAtuScroll) {
+                // Rola para cima
+                document.querySelector(".navbar").style.top = "0";
+            } else {
+                // Rola para baixo
+                document.querySelector(".navbar").style.top = "-100px"; // Esconde a navbar
+            }
+            posIniScroll = posAtuScroll;
+        }
+    </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </html>
