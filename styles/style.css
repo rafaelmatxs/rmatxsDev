@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/    
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+.bordateste {
+    border: 1px solid red;
+}
+
+h1 {
+    font-weight: 700;
+    color: #050505;
+}
+
+#sc1 h1{
+    font-size:8vw;
+}
+
+#sc1 h2{
+    font-size:4vw;
+}
+
+#home {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding-top: 25px;
+}
