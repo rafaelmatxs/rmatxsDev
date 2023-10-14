@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-.bordateste {
-    border: 1px solid red;
-}
-
 .carousel-custom {
     background: rgba(255, 255, 255, 0.65); 
     padding: 10px;
@@ -39,6 +35,47 @@ h1 {
 }
 
 footer {
-    background-color: #f0f0f0;
+    background: #f0f0f0;
     padding-top: 25px;
+    position: relative;
 }
+
+/* media queries 
+-----------------*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel {
+        display: none;
+    }
+    
+    .img-custom {
+        display: none;
+    }
+}
+
+/* SM devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* MD devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* LG devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* XL devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* XXL devices (extra wide desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
+/* /media queries
+------------------ */
